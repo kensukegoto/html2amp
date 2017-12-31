@@ -17,7 +17,8 @@ if(isset($_GET['siteurl'])){
     // 画像のパスを差し替える
     $imgs = $crawler->filter('.body_img img');
     
-    $absPath = 'https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/';
+    /* 絶対パスをここに指定 */
+    $absPath = '';
     
 
     $bf2af = [
